@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display:flex;
+    flex-grow: 1;
+    height: 100vh;
+    margin: 0;
+}
+
+.splashContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 40vw;
+    min-width: 400px;
+    height: 100%;
+    background-image: url("images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+}
+.logoBanner{
+    background: rgba(0,0,0,0.5);
+    font-family: Norse-Bold;
+    width:100%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+    margin-top: 25vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logoBanner>img{
+    height:10vh;
+    display:inline;
+}
+.logoBanner>p{
+    font-size: 10vh;
+    display: inline;
+}
+.splashContainer>p{
+    color: white;
+}
+.splashContainer a:link{
+    color: white;
+}
+.splashContainer a:visited{
+    color: white;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: aliceblue;
+}
+.contentContainer a:link {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contentContainer a:visited {
+    color: #596D48;
+}
+.contentContainer a:hover {
+    color: brown;
+}
+.contentContainer a:active {
+    color: brown;
+}
+
+.contentDiv1{
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-bottom: 25px;
+}
+.contentDiv1>p{
+    font-weight: bold;
+    font-size: 24px;
+    width: 800px;
+}
+.contentDiv2{
+    padding-left: 50px;
+    padding-top: 5px;
+    background-color: white;
+    height: 320px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+.contentDiv2>p{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+form{
+    display:flex;
+    flex-grow: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 220px;
+    width: 600px;
+}
+label{
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+input{
+    outline:none !important;
+    border: 1px solid gray;
+    flex-grow: 1;
+    font-size: 24px;
+    width: 330px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:focus{
+    border:1px solid blue;
+    box-shadow: 2px 2px 5px gray;
+}
+#validationMessage{
+    font-size: 12px;
+    letter-spacing: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 20px;
+    overflow: visible;
+    color: red;
+    
+}
+.contentDiv3{
+    padding-left: 50px;
+    padding-top: 25px;
+    flex-grow: 1;
+
+}
+.contentDiv3>button{
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 40px 15px 40px;
+}
+.contentDiv3>p{
+    padding-top: 10px;
+    font-size: 18px;
+}
